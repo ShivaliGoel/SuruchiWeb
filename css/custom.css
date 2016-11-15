@@ -1,0 +1,190 @@
+body{
+    margin-top: 50px;
+background: #8E0E00; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #8E0E00 , #1F1C18); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #8E0E00 , #1F1C18); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+@font-face {
+    font-family: arimo;
+    src: url("fonts/Arimo-Regular.ttf");
+}
+
+@font-face {
+    font-family: pacifico;
+    src: url("fonts/Pacifico.ttf");
+}
+ 
+ 
+.pad-top-30{padding-top: 30px;}
+.pad-top-20{padding-top: 20px;}
+.pad-top-10{padding-top: 10px;}
+
+.top-bar{
+    margin-bottom: 1px;
+    height: 5px;
+    background: #1F1C18;
+}
+
+.top-bar #topbarbtm{
+    margin-bottom: 0px;
+}
+ 
+.top-bar-btm {
+    margin-bottom: 0px;
+}
+
+img.logoimg{
+  -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+    filter: grayscale(100%);
+}
+
+img.logoimg:hover{
+    -webkit-filter: grayscale(0%); /* Chrome, Safari, Opera */
+    filter: grayscale(0%);
+}
+.navbar li{
+    font-family: amiro;
+    font-size: 17px;
+}
+
+.navbar-nav li a {
+line-height: 30px;
+     padding-top: 25px !important;
+    padding-bottom: 25px !important;
+    color: #2f4f4f!important;
+}
+
+
+.navbar li:hover{
+    background-color: #e7e7e7;
+    line-height: 40px !important;
+}
+
+.media-heading{
+    font-family: pacifico !important;
+    color: silver !important;
+}
+
+.media-body{
+    font-family: amiro !important;
+    color: silver !important;
+    font-size: 120%;
+    padding-left: 15px;
+}
+
+.jumbotron{
+    margin-top: 0px;
+    background: url(../images/waterdrop.jpg) no-repeat 50% 0;
+    padding: 0;
+    height: 350px;
+}
+
+.jumbotron [class*="col-"]{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #eee;
+    border: solid 1px #ddd;
+    background-color: rgba(86,61,124,.15);
+    border: 1px solid rgba(86,61,124,.15);
+    overflow: auto;
+    height: 350px;
+}
+.jumbotron-content{
+    color: #ffffff;   
+}
+
+.jumbotron h1{
+    font-size: 34px;
+    border-bottom: solid #ffffff 1px;
+    padding-bottom: 10px;
+}
+
+.bluebox{
+    background: #2e98cc;
+    overflow: hidden;
+    height: 230px;
+    color: #ffffff;
+    padding: 0 10px;
+    font-size: 120%;
+}
+
+.bluebox a.readmore{
+    position: absolute;
+    bottom: 15px;
+    left: 30px;
+    background: #2b8cbc;
+    padding: 10px 15px;
+    color: #ffffff;
+}
+
+a.readmore:hover{
+    color: #20749d;   
+}
+
+.redbox{
+     background: #ca2129;
+    overflow: hidden;
+    height: 230px;
+    color: #ffffff;
+    padding: 0 10px;
+    font-size: 120%;
+}
+
+.redbox a.readmore{
+    position:absolute;
+    bottom: 15px;
+    left: 30px;
+    background: #bf1e26;
+    padding: 10px 15px;
+    color: #ffffff;
+}
+
+.redbox a.readmore:hover{
+    color: #86161b;   
+}
+
+.col-md-4 poemcol{
+    position: absolute !important;
+}
+
+.panel-body{
+    background: url(../images/lpnew.jpg) repeat ;
+    line-height: 25px;
+}
+
+.panel-default > .panel-heading{
+    background: #000000;
+    border: #000000 !important;
+    color: white;
+}
+
+a.list-group-item.active,a.list-group-item.active:hover,a.list-group-item.active:focus{
+    background: #000000;
+    border: #000000;
+}
+
+.grey-list a.list-group-item.active,.grey-list a.list-group-item.active:hover,.grey-list a.list-group-item.active:focus{
+    background: #f4f4f4;
+    border: #cccccc;
+    color: #666666;
+}
+
+footer{
+    text-align: center;
+    padding: 25px 0;
+    line-height: 10px !important;
+    font-weight: bold;
+color: darkgray;
+   background: #8E0E00; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #8E0E00 , #1F1C18); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #8E0E00 , #1F1C18); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+.magictime {
+-webkit-animation-duration: 3s;
+-moz-animation-duration: 3s;
+-o-animation-duration: 3s;
+animation-duration: 3s;
+}
